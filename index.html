@@ -19,19 +19,30 @@
     <body>
         <!--header-->
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand navbar-light">
                 <div class="collapse navbar-collapse " id="navbar">
                     <ul class="navbar-nav">
                         <li><a href="#" class="fa fa-lg fa-instagram"></a></li> 
                         <li class="nav-link" >&#124;</li>
                         <li><a class="nav-link" href="#" id="insta">Instagram</a></li>
+                        
                     </ul>
+                    <!--from: https://codepen.io/gungorbudak/pen/ooKNpz-->
+                    <div class="form-group has-search">
+                        <span class="fa fa-search form-control-feedback"></span>
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <ul class="navbar-nav" style="color: rgba(0,0,0,0.5)">
+                        <li><a class="fa fa-compass" style="position:relative; left:230px; color: rgba(0,0,0,0.5)" href="#"></a></li>
+                        <li><a class="fa fa-heart-o" style="position:relative; left:250px; color: rgba(0,0,0,0.5)" href="#"></a></li>
+                        <li><a class="fa fa-user-o" style="position: relative; left:270px; color: rgba(0,0,0,0.5)" href="#"></a></li>
+                    </ul>
+                    
                 </div>
-                <!--from: https://codepen.io/gungorbudak/pen/ooKNpz-->
-                <div class="form-group has-search">
-                    <span class="fa fa-search form-control-feedback"></span>
-                    <input type="text" class="form-control" placeholder="Search">
-                </div>
+                
+                <ul class="navbar-nav">
+                    
+                </ul>
                 
             </nav>
         </header>
@@ -79,7 +90,7 @@
                                 <hr>
                                 <div style="color: rgba(0,0,0,0.5); font-size: 14px">
                                     Add comment... 
-                                    <a href="#" style="position:absolute; right:0;" class="fa fa-lg fa-ellipsis-h"></a>
+                                    <a href="#"  class="fa fa-lg fa-ellipsis-h"></a>
                                 </div>
 
                             </div>
@@ -131,7 +142,73 @@
                     </div>
                     <!--stories-->
                     <div class="col-4">
+                        <!--user info-->
+                        <div class="container">
+                            <div class="row profile">
+                                <div class="col-auto">
+                                    <img src="thumbnail.png">
+                                </div>
+                                <div class="col-auto" style="font-size:20px; margin-top:15px;">
+                                    user1<div style="color:rgba(0,0,0,0.5); font-size:16px">Username</div>
+                                </div>
+                            </div>
+                        </div>
 
+                        <hr>
+                        <!--stories-->
+                        <div style="color: rgba(0,0,0,0.5); font-size: 20px; padding:5px;"> 
+                            Stories <span style="font-size: 16px; color:black; font-weight:bold; position:absolute; right:0">Watch All</span>
+                        </div>
+                        <!--user info-->
+                        <div class="container">
+                            <div class="row user">
+                                <div class="col-auto">
+                                    <img src="tree.png">
+                                </div>
+                                <div class="col-auto" style="font-size:20px; margin-top:15px;">
+                                    user5<div style="color:rgba(0,0,0,0.5); font-size:16px">Username</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row user">
+                                <div class="col-auto">
+                                    <img src="washu.png">
+                                </div>
+                                <div class="col-auto" style="font-size:20px; margin-top:15px;">
+                                    user2<div style="color:rgba(0,0,0,0.5); font-size:16px">Username</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row user">
+                                <div class="col-auto">
+                                    <img src="thumbnail.png">
+                                </div>
+                                <div class="col-auto" style="font-size:20px; margin-top:15px;">
+                                    user3<div style="color:rgba(0,0,0,0.5); font-size:16px">Username</div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <footer class="footer">
+                            <div class="container">
+                                <span class="text-muted">
+                                    <a href="#">About Us</a>&#183;
+                                    <a href="#">Support</a>&#183;
+                                    <a href="#">Press</a>&#183;
+                                    <a href="#">API</a>&#183;
+                                    <a href="#">Jobs</a>&#183;
+                                    <a href="#">Privacy</a>&#183;
+                                    <a href="#">Terms</a>&#183;
+                                    <a href="#">Profiles</a>&#183;
+                                    <a href="#">Hashtags</a>&#183;
+                                    <a href="#">Language</a>
+                                </span>
+                                <div></div>
+                                <i class="fa fa-copyright"> 2009 Instagram</i>
+                            </div>
+                        </footer>
                     </div>
                 </div>
             </div>
