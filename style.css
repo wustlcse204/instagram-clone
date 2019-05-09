@@ -112,6 +112,39 @@ div.icons a{
     right:0;
     color: rgba(0,0,0,0.5);
 }
+/*suggestions*/
+div.suggestions{
+    position: relative;
+    margin-bottom: 100px;
+    width: 600px;
+    min-height: 275px;
+    background-color: white;
+}
+.suggestions .col-auto{
+    text-align: center;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.3);
+    border-width: 1px;
+    border-radius: 2%;
+    margin: 5px;
+}
+
+#next{
+    position: absolute;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 70%;
+    /*center*/ 
+    top: 50%;
+    /*move to right*/
+    right: 25px;
+    /*text*/
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
 
 /*user info*/
 
