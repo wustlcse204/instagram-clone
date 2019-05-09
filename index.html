@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!--meta tag-->
+        <meta charset="UTF-8">
+        <meta name="description" content="Image Gallery">
+        <meta name="keywords" content="images,gallery">
+        <meta name="author" content="Kaitlin A Clark">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <!--use title tag-->
+        <title>CSE 204 - Assignment 05 Instagram Clone</title>
+         <!--Bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- Add social-media-icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+
+    </head>
+    <body>
+        <!--header-->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="collapse navbar-collapse " id="navbar">
+                    <ul class="navbar-nav">
+                        <li><a href="#" class="fa fa-lg fa-instagram"></a></li> 
+                        <li class="nav-link" >&#124;</li>
+                        <li><a class="nav-link" href="#" id="insta">Instagram</a></li>
+                    </ul>
+                </div>
+                <!--from: https://codepen.io/gungorbudak/pen/ooKNpz-->
+                <div class="form-group has-search">
+                    <span class="fa fa-search form-control-feedback"></span>
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+                
+            </nav>
+        </header>
+        <!--body of site-->
+        <div class="jumbotron">
+            <div class="container-fluid">
+                <div class="row">
+                    <!--feed-->
+                    <div class="col-8">
+                        <!--post-->
+                        <div class="post">
+                            <!--header-->
+                            <div class="post-header">
+                                <!--profile pic-->
+                                <div class="profile">
+                                    <p>
+                                        <img src="thumbnail.png">
+                                        user1
+                                    </p>
+                                </div>
+                                
+                                
+                            </div>
+                            <!--post image-->
+                            <div class="post-img">
+                                <img src="washu.png" />
+                            </div>
+                            <!--post caption-->
+                            <div class="caption">
+                                <div class="icons">
+                                    <a href="#" class="fa fa-lg fa-heart-o"></a>
+                                    <a href="#" class="fa fa-lg fa-comment-o"></a>
+                                    <a href="#" class="fa fa-lg fa-share-alt"></a>
+                                    <a href="#" class="fa fa-lg fa-bookmark-o"></a>
+                                </div>
+                                <div style="font-weight: bold"> 11 likes </div>
+                                <div>
+                                    <span style="font-weight: bold">user1</span>
+                                    Living like larry <a href="#">#luxury</a>
+                                </div>
+                                <div style="color: rgba(0,0,0,0.5); font-size: 12px">
+                                    3 HOURS AGO
+                                </div>
+
+                                <hr>
+                                <div style="color: rgba(0,0,0,0.5); font-size: 14px">
+                                    Add comment... 
+                                    <a href="#" style="position:absolute; right:0;" class="fa fa-lg fa-ellipsis-h"></a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!--post 2-->
+                        <div class="post">
+                            <!--header-->
+                            <div class="post-header">
+                                <!--profile pic-->
+                                <div class="profile">
+                                    <p>
+                                        <img src="thumbnail.png">
+                                        user1
+                                    </p>
+                                </div>
+                                
+                                
+                            </div>
+                            <!--post image-->
+                            <div class="post-img">
+                                <img src="washu.png" />
+                            </div>
+                            <!--post caption-->
+                            <div class="caption">
+                                <div class="icons">
+                                    <a href="#" class="fa fa-lg fa-heart-o"></a>
+                                    <a href="#" class="fa fa-lg fa-comment-o"></a>
+                                    <a href="#" class="fa fa-lg fa-share-alt"></a>
+                                    <a href="#" class="fa fa-lg fa-bookmark-o"></a>
+                                </div>
+                                <div style="font-weight: bold"> 11 likes </div>
+                                <div>
+                                    <span style="font-weight: bold">user1</span>
+                                    Living like larry <a href="#">#luxury</a>
+                                </div>
+                                <div style="color: rgba(0,0,0,0.5); font-size: 12px">
+                                    3 HOURS AGO
+                                </div>
+
+                                <hr>
+                                <div style="color: rgba(0,0,0,0.5); font-size: 14px">
+                                    Add comment... 
+                                    <a href="#" style="position:absolute; right:0;" class="fa fa-lg fa-ellipsis-h"></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--stories-->
+                    <div class="col-4">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
